@@ -1,0 +1,164 @@
+:focus {
+    outline-width: 0px;
+  }
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: hsl(217, 28%, 15%);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    font-family: Raleway,sans-serif;
+}
+
+.logo-header {
+    width: 90px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 77%);
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* 
+---------------------------------------------------------- */
+
+main {
+    font-family: open sans;
+}
+
+.now {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.container__now {
+    padding: 25px;
+}
+
+.container__now img {
+    max-width: 100%;
+    width:490px;
+}
+
+.container__now h1 {
+    margin-top: 25px;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 100%);    
+}
+
+.container__now p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: hsl(0, 5%, 92%);
+    font-size: 1.4rem;
+}
+
+.container__now button {
+    width: 80%;
+    max-width: 250px;
+    height: 50px;
+    color: hsl(0, 0%, 100%);  
+    font-weight: bold;
+    background-color: hsl(176, 55%, 44%);
+    border-radius: 25px;
+    border: none;
+}
+
+/* 
+---------------------------------------------------------- */
+
+.features {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.features_new {
+    margin: 50px 0;
+}
+
+.features_new img {
+    margin-top: 35px;
+}
+
+.features_new h2 {
+    margin-top: 15px;
+    font-size: 1.9rem;
+    color: hsl(0, 0%, 100%);  
+}
+
+.features_new p {
+    margin-top: 5px;
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 77%);
+}
+
+/* 
+---------------------------------------------------------- */
+
+.productive {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.productive_img img {
+    width: 550px;
+    max-width: 100%;
+}
+
+.productive_info h2 {
+    font-size: 1.9rem;
+    color: hsl(0, 0%, 100%);  
+}
+
+.productive_info p {
+    margin-top: 5px;
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 77%);
+    margin-bottom: 15px;
+}
+
+.productive_info a {
+    margin-top: 15px;
+    font-size: 1.4rem;
+    color: hsl(176, 68%, 64%);
+}
+
+.productive_info a:hover {
+    color: hsl(0, 0%, 100%);  
+}
+
+
+.plus {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('./images/icon-arrow.svg');
+    background-size: cover;
+}
